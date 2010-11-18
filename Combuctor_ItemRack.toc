@@ -1,0 +1,9 @@
+## Interface: 40000
+## Title: Combuctor: ItemRack
+## Notes: ItemRack filter for Combuctor
+## Author: Lachnoir, Tuller, Gello
+## Dependencies: Combuctor ItemRack
+## OptionalDeps: Combuctor_Sets
+## Version: 0.1
+
+Combuctor_ItemRack.lua
