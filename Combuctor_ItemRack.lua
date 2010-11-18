@@ -1,4 +1,3 @@
-
 local CombuctorSet = Combuctor:GetModule("Sets")
 
 local L={}
@@ -39,8 +38,8 @@ function makeIsSet(filter)
 	end
 end
 
--- seeing some odd behaviour with the rules...
---    supplying a rule to the "ItemRack" root set seems to interfere with the processing of the "None" subset
+-- TODO: seeing some odd behaviour with the rules...
+--    supplying a function/rule to the "ItemRack" root set seems to interfere with the processing of the "None" subset
 --    removing the rule from the root set seems to work around the problem, but there must be at least one subset selected in the UI
 CombuctorSet:Register(L["ItemRack"], "Interface/Icons/INV_Gauntlets_15")
 CombuctorSet:RegisterSubSet(L["All"], L["ItemRack"],nil, makeIsSet(""))
